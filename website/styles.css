@@ -1,0 +1,375 @@
+
+  /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #fff, #f0f8ff);
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('header-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        #services {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .service-box {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .service-content {
+            padding: 20px;
+        }
+
+        .service-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .service-content p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        #call-to-action {
+            background: #ffffff;
+            color: #333;
+            text-align: center;
+            padding: 50px 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        #call-to-action h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        #call-to-action p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        #call-to-action .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #call-to-action .cta-button:hover {
+            background: #0056b3;
+            color: white;
+        }
+
+/* Footer styles */
+
+footer {
+    position:relative; /* Position relative to the normal document flow */
+    width: 100%; /* Full width of the page */
+    background: #007bff; /* Blue background */
+    color: white; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add vertical padding for proper spacing */
+    margin-top: 20px; /* Creates a gap between the content and the footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for style */
+    font-size: 16px; /* Medium font size for readability */
+    line-height: 1.5; /* Improve text readability */
+    bottom:0;
+    left:0:
+}
+
+
+/* Gallery */
+.gallery {
+    display: flex; /* Aligns items in a row */
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    gap: 20px; /* Adds spacing between images */
+    justify-content: center; /* Centers the gallery images horizontally */
+    padding: 20px; /* Adds space around the gallery */
+    background: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Soft rounded corners for the section */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.gallery img {
+    width: 100%; /* Makes images responsive */
+    max-width: 300px; /* Medium size for images */
+    height: 300px; /* Fixed height for consistency */
+    object-fit: cover; /* Maintains aspect ratio while cropping to fit */
+    border-radius: 10px; /* Smooth rounded corners for images */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+
+/* Gallery Caption (Optional for Cards) */
+.gallery .card {
+    text-align: center;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+}
+
+.gallery .card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.gallery .card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height:1.4;
+}
+
+/* Call to Action */
+#call-to-action {
+    background: linear-gradient(135deg, #007BFF, #6A11CB);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    margin-top: 15px;
+    padding: 10px 30px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #555;
+    transform: scale(1.1);
+}
+
+/* Navigation bar */
+nav {
+    background-color: #007BFF;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Contact form */
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+form textarea {
+    resize: vertical; /* Allows vertical resizing */
+    height: 80px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 1em;
+    }
+}
+
+
+/* Header */
+.portfolio-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(90deg, #343a40, #495057);
+    color: #fff;
+}
+.portfolio-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.portfolio-header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Portfolio Item */
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.portfolio-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-details {
+    padding: 15px;
+    text-align: center;
+}
+.portfolio-details h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+.portfolio-details p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+.btn {
+    display: inline-block;
+    background: #ffc107;
+    color: #343a40;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: #e0a800;
+
+    
